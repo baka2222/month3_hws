@@ -1,5 +1,6 @@
 #Я многие вещи не понял, поэтому посмотрел уроки на ютубе
 #Из-за этого способ написания чуть отличается от того, какой был на уроке.
+#Tокен - 6445594361:AAG0EOKUMBL-uvldN1OA8jxGGjEkyODnO3Q
 
 import asyncio
 import dotenv
@@ -50,7 +51,7 @@ async def main():
         types.BotCommand(command='random.pic',description='get rahdom picture')
     ])
     await dp.start_polling(bot)
-#Вот тут у меня почему-то не создавалась меню, поэтому я создал клавиатуру
+#Вот тут у меня почему-то не создавалoсь меню, поэтому я создал клавиатуру
 
 
 
